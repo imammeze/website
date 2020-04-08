@@ -1,0 +1,249 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 100%;
+  overflow: hidden;
+  margin: auto;
+  text-align: center;
+  line-height: 20px;
+  padding: 20px;
+}
+
+.nav{
+  text-align: center;
+  font-family: fantasy;
+  font-weight: bold;
+  width : 100%;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+  
+} 
+.nav ul{
+  background-color: blueviolet; 
+  list-style: none;
+  position: relative;
+  display: inline-table;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+ 
+}
+.nav ul li{
+  float:right;
+}
+.nav ul li:hover{
+  background-color: yellow;
+ ;
+}
+.nav ul li .hover a{
+  background-color : yellow;
+ 
+}
+.nav ul li a{
+  display: block;
+  margin: 0;
+  padding: 20px 30px 15px;
+  color: black;
+  text-decoration: none;
+}
+.left{
+  width: 45%;
+  height:55vw;
+  background: linear-gradient(45deg,hsl (243,86%, 85%));
+  background-size:400%;
+  background-color: blueviolet;
+  background-position: right;
+  display :flex;
+  float: left;
+  justify-content:center;
+  align-items:center;
+}
+.left img{
+  width: 30vw;
+  height: 30vw;
+}
+.right{
+  margin: 0;
+  padding: 0;
+  width: 55%;
+  height: 55vw;
+  float: right;
+  background-color:blueviolet;
+}
+.wrapper{
+  text-align: left;
+  color:white;
+  font-weight: bold;
+  line-height: 40px ;
+  margin: 10px 0px 50px;
+  padding-top: 150px;
+  padding-left: 20px;
+  font-family: "Poppins", sans-serif;
+}
+a {
+   text-decoration: none;
+}
+.boxed-btn {
+  background:rgb(251, 255, 7);
+  color: blueviolet;
+  border-radius: 5px;
+  padding: 15px 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 405;
+  letter-spacing: 3px;
+  text-align: center;
+  cursor: pointer;
+  margin-right : 50px;
+  margin-left: 50px;
+  transition: .5s;
+}
+.boxed-btn:hover{
+  background:white;
+}
+.p1{
+    text-align: left;
+    color :black;
+    margin: 10px 20px 50px;
+    line-height: 20px;
+
+}
+.box-right{
+  width: 45%;
+  display : flex;
+  justify-content: flex-end;
+  padding-right: 10%;
+  font-size: 3vw;
+}
+
+#boxes{
+  margin-top: 40px;
+}
+#boxes .box1{
+  float: left;
+  text-align: center;
+  width: 40%;
+  padding: 20px;
+}
+
+#boxes .box2{
+  float: right;
+  text-align: center;
+  width: 40%;
+  padding: 20px;
+}
+.card{
+  width:300px;
+  height: 150px;
+  background-color: #f4f4f4;
+  box-shadow: 0.5rem 10px 0.4rem rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-transform: capitalize;
+  display: inline-block;
+  text-align: center;
+  transform: scale();
+}
+.kiri{
+  background-color:#f4f4f4;
+  width: 50%;
+  height: 400px;
+  float: left;
+  margin: auto;
+  text-align: center;
+
+}
+.kepala{
+  text-align: center;
+  height: 10px;
+  line-height: 20px;
+  padding:30px;
+  margin:auto;
+}
+.input{
+  width: 90%;
+  height:10px;
+  border-radius: 3px;
+  padding :10px;
+  margin-top:10px;
+  margin-bottom: 10px;
+  
+}
+.button{
+  width:15%;
+  background-color: blue;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+}
+.kanan{
+  background-color:blueviolet;
+  width: 50%;
+  height: 400px;
+  float: right;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+ .img{
+  background-image: url(img/profile.jpg);
+  background-size: cover;
+  background-color: #eaeaea;
+  width: 200px;
+  height: 150px;
+  border-radius: 50px;
+  margin: 0 auto;
+  border: 1px  solid #eaeaea;
+}
+ .h1{
+  font-size: 30px;
+  margin-top:20px; 
+  font-weight: bold;
+  color:white;
+}
+.text{
+  font-size: 20px;
+  color:white;
+}
+p{
+  margin:0 auto;
+  padding-top:20px;
+  width: 90%;
+  height: auto;
+  color:black;
+
+}
+.ul{
+  margin-left: -45px;
+  display: inline-block;
+  list-style: none;
+}
+  
+
+.li{
+  margin: auto;
+  padding:auto;
+  list-style: none;
+  display: inline-block;
+  position: relative;
+}
+.footer{
+  background-color: blueviolet;
+  color: white;
+  text-align: center; 
+  height: 30px;
+  padding: 10px 0 10px;
+  margin: auto;
+}
